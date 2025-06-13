@@ -19,7 +19,7 @@ Dự án "Hệ thống Giám sát Nông nghiệp Thông minh" được phát tri
 ## 🏗️ Kiến trúc Hệ thống
 Hệ thống được thiết kế theo kiến trúc module, bao gồm khối thu thập dữ liệu, khối xử lý trung tâm và khối giao tiếp, điều khiển. Dữ liệu được truyền tuần tự từ cảm biến đến người dùng và lệnh điều khiển được gửi theo chiều ngược lại.
 
-![Sơ đồ luồng hoạt động của hệ thống](https://github.com/toandz20cm/Smart-Farm/raw/main/workflow-diagram.png)
+![Sơ đồ luồng hoạt động của hệ thống](/doc/workflow-diagram.jpg)
 
 ## 🛠️ Công nghệ Sử dụng
 
@@ -48,7 +48,7 @@ Hệ thống được thiết kế theo kiến trúc module, bao gồm khối th
 ## 🔌 Sơ đồ Kết nối và Cài đặt
 
 ### Sơ đồ nguyên lý
-![Sơ đồ kết nối phần cứng](https://github.com/toandz20cm/Smart-Farm/raw/main/pin-circuit.png)
+![Sơ đồ kết nối phần cứng](doc/pin-circuit.png)
 
 ### Cấu hình chân (Pinout)
 
@@ -114,10 +114,15 @@ Hệ thống được thiết kế theo kiến trúc module, bao gồm khối th
 ## 📸 Hình ảnh Thực tế
 *Giao diện Web Dashboard*
 
+![Web](doc/webb.jpg)
 
 *Mô hình phần cứng*
 
+![MH](doc/rll.jpg)
 
+*Think Speak
+
+![MH](doc/thikk.jpg)
 
 ## 🧪 Kiểm thử và Hiệu năng
 Hệ thống đã được kiểm tra trong môi trường phòng thí nghiệm và cho kết quả tích cực:
@@ -126,22 +131,6 @@ Hệ thống đã được kiểm tra trong môi trường phòng thí nghiệm 
 -   **Thời gian phản hồi điều khiển**: Trung bình dưới 200ms từ lúc nhấn nút đến khi relay hoạt động.
 -   **Độ ổn định**: Hoạt động liên tục trong 1 giờ mà không có hiện tượng treo máy hay mất kết nối.
 -   **Năng lượng tiêu thụ**: Khoảng 130mA @ 5V ở trạng thái chờ.
-
-## 📁 Cấu trúc Thư mục
-```
-.
-├── ESP32_Code                # Mã nguồn cho ESP32
-│   └── ESP32_Code.ino
-├── STM32_Code                # Project STM32CubeIDE
-│   ├── Core
-│   ├── Drivers
-│   └── ...
-├── doc                       # Tài liệu và hình ảnh
-│   ├── Báo cáo cuối kỳ.pdf
-│   ├── pin-circuit.png
-│   └── workflow-diagram.png
-└── README.md                 # File README này
-```
 
 ## 👥 Nhóm phát triển
 Dự án được thực hiện bởi nhóm sinh viên Trường Đại học Công nghệ - ĐHQGHN:
