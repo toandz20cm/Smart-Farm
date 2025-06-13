@@ -6,7 +6,11 @@
 
 > **Hệ thống giám sát nông nghiệp thông minh sử dụng IoT để thu thập dữ liệu, giám sát từ xa và điều khiển tưới tiêu, tối ưu hóa quá trình canh tác.**
 
-**[▶️ Xem Video Demo Hoạt Động](https://youtu.be/CVzV6Cb0qsQ?feature=shared)**
+**[Video Demo](https://youtu.be/CVzV6Cb0qsQ?feature=shared)**
+
+**[Report document](/doc/Report.pdf)**
+
+**[Slide](/doc/Slide.pdf)**
 
 ## 📋 Tổng quan
 Dự án "Hệ thống Giám sát Nông nghiệp Thông minh" được phát triển nhằm giải quyết các thách thức trong nông nghiệp truyền thống bằng cách ứng dụng công nghệ IoT và tự động hóa. Hệ thống cho phép người dùng:
