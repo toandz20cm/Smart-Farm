@@ -2,8 +2,8 @@
 #include <WebServer.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Urasenkehanoi";
-const char* password = "";
+const char* ssid = "P519";
+const char* password = "deocomatkhau";
 
 WebServer server(80);
 
